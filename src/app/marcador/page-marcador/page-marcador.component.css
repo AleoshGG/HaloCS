@@ -181,7 +181,6 @@ button {
   padding: 30px 0 50px 40px;
   background: rgba(139, 154, 173, 0.6);
   display: flex;
-  flex-direction: column;
   margin-bottom: 30px;
 }
 
@@ -190,8 +189,69 @@ button {
 }
 
 .bP-left > iframe {
-    margin-top: -40px;
+  margin-top: -40px;
 }
+
+.bP-rigth {
+  width: 50%;
+  display: flex;
+  margin-top: 9%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bP-R-top {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.bP-team-medium {
+  width: 20%;
+}
+
+.bP-team-medium > h1 {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.bP-team-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bP-R-botton {
+  padding-top: 4%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50%;
+  padding-left: 25%;
+}
+
+.btn-bP {
+  padding: 10px 15px;
+  border-radius: 1px;
+}
+
+.btn-bP:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 app-footer {
   margin-top: 10px;
   position: relative;
