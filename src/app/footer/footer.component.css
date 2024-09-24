@@ -1,0 +1,47 @@
+.footer {
+  background: #373d44;
+  display: flex;
+  padding: 0 40px 10px 40px;
+  height: 80px;
+}
+
+.footer > div {
+  width: 33%;
+}
+
+.div-left {
+  display: flex;
+  align-items: center;
+}
+
+.div-left > img {
+  height: 50px;
+}
+
+.div-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.img-c {
+  height: 30px;
+}
+
+.img-c:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.div-rigth {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  color: #FFFFFF;
+}
+
+.div-rigth > img {
+    height: 20px;
+}
