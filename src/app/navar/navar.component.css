@@ -38,6 +38,7 @@
 .btn:hover {
   background-color: #ffc011;
   transition: 0.6s;
+  cursor: pointer;
 }
 
 .btn-border:hover {

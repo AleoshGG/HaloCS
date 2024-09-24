@@ -28,11 +28,11 @@ app-navar {
 .principal-content {
   position: relative; /* Añadido para que el z-index funcione */
   z-index: 2; /* Mayor que la imagen */
-  width: 92%;
+  width: 95%;
   color: #ffffff;
   display: flex; /* Si deseas que los dos bloques estén lado a lado */
   justify-content: space-between; /* Para distribuir el espacio entre los elementos */
-  padding: 10px 40px 0 40px;
+  padding: 10px 10px 0 40px;
 }
 
 .content-left,
@@ -73,15 +73,16 @@ h3 {
   display: block;
   position: absolute; /* La imagen será posicionada de manera absoluta */
   z-index: 0; /* Menor que el contenido */
-  top: -300px;
+  top: 470px;
+  max-height: 1230px;
 }
 
 .content-top {
   position: relative;
   z-index: 2;
   color: #ffffff;
-  width: 92%;
-  padding: 0 40px 0 40px;
+  width: 96%;
+  padding: 0 0px 0 40px;
   display: flex;
   gap: 5%;
 }
@@ -123,4 +124,94 @@ h3 {
 
 .img-team {
   height: 70px;
+}
+
+.content-medium {
+  position: relative;
+  color: #ffffff;
+  margin-top: 100px;
+  padding: 10px 0 20px 40px;
+  background: rgba(139, 154, 173, 0.6);
+  display: flex;
+}
+
+.left-cM {
+  width: 60%;
+}
+
+.img-cM {
+  height: 300px;
+  box-shadow: -4px 4px 4px #000000;
+}
+
+.content-bottom {
+  margin-top: 60px;
+  position: relative;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-msg {
+  color: #ffffff;
+  background: rgba(139, 154, 173, 0.6);
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.content-msg > img {
+  height: 60px;
+}
+
+.btn-links {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.content-btn-link {
+  border: 0.9px #fdfffc solid;
+  padding: 5px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.btn-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.img-btn1 {
+  height: 40px;
+}
+
+.img-btn {
+  height: 25px;
+}
+
+button {
+    border: none;
+}
+
+.btn-link:hover {
+    transition: 0.5s;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+app-footer {
+    margin-top: 10px;
+    position: relative;
 }
