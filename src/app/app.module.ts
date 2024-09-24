@@ -5,19 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavarComponent } from './navar/navar.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { PageHomeComponent } from './home/page-home/page-home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavarComponent,
-    FooterComponent
+    FooterComponent,
+    PageHomeComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

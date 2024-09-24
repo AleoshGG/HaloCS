@@ -1,0 +1,126 @@
+.img-background {
+  position: relative;
+}
+
+.img-b {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute; /* La imagen será posicionada de manera absoluta */
+  top: -210px;
+  left: 0;
+  z-index: 1; /* Menor que el contenido */
+  opacity: 55%;
+  box-shadow: 4px 4px #061629;
+}
+
+.nv {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+app-navar {
+  position: relative;
+  z-index: 2;
+}
+
+.principal-content {
+  position: relative; /* Añadido para que el z-index funcione */
+  z-index: 2; /* Mayor que la imagen */
+  width: 92%;
+  color: #ffffff;
+  display: flex; /* Si deseas que los dos bloques estén lado a lado */
+  justify-content: space-between; /* Para distribuir el espacio entre los elementos */
+  padding: 10px 40px 0 40px;
+}
+
+.content-left,
+.content-right {
+  z-index: 2; /* También puede aplicarse si quieres más control por sección */
+}
+
+.content-left {
+  width: 50%;
+}
+
+.content-left > h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.content-left > p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.content-right {
+  width: 42%;
+  text-align: center;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.img-cR {
+  height: 290px;
+}
+
+.img-bc {
+  width: 100%;
+  display: block;
+  position: absolute; /* La imagen será posicionada de manera absoluta */
+  z-index: 0; /* Menor que el contenido */
+  top: -300px;
+}
+
+.content-top {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  width: 92%;
+  padding: 0 40px 0 40px;
+  display: flex;
+  gap: 5%;
+}
+
+.left-cT {
+  width: 47%;
+  text-align: center;
+}
+
+.img-left-cT {
+  height: 280px;
+  border-radius: 3px;
+  box-shadow: -4px 4px 4px #000000;
+}
+
+.img-left-cT:hover {
+  transform: scale(1.01);
+  transition: 1s;
+}
+
+.right-cT {
+  width: 42%;
+  display: flex;
+  margin-top: 40px;
+  gap: 3%;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.box-team {
+  background: #fdfffc;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-team {
+  height: 70px;
+}
