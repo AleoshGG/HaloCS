@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavarComponent } from './navar/navar.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageHomeComponent } from './home/page-home/page-home.component';
+import { PageEquiposComponent } from './equipos/page-equipos/page-equipos.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { PageHomeComponent } from './home/page-home/page-home.component';
     NavarComponent,
     FooterComponent,
     PageHomeComponent,
+    PageEquiposComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
