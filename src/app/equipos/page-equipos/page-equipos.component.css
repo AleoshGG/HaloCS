@@ -1,0 +1,160 @@
+.img-background {
+  position: relative;
+}
+
+.img-b {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute; /* La imagen será posicionada de manera absoluta */
+  top: -210px;
+  left: 0;
+  z-index: 1; /* Menor que el contenido */
+  opacity: 55%;
+  box-shadow: 4px 4px 4px #ffc011;
+}
+
+.nv {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+app-navar {
+  position: relative;
+  z-index: 2;
+}
+
+.principal-content {
+  position: relative; /* Añadido para que el z-index funcione */
+  z-index: 2; /* Mayor que la imagen */
+  width: 95%;
+  color: #ffffff;
+  display: flex; /* Si deseas que los dos bloques estén lado a lado */
+  justify-content: end; /* Para distribuir el espacio entre los elementos */
+  padding: 10px 10px 0 40px;
+}
+
+.content {
+  width: 50%;
+}
+
+.content > h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.content > p {
+  font-size: 18px;
+  text-align: right;
+  margin-right: 40px;
+}
+
+.img-bc {
+  width: 100%;
+  display: block;
+  position: absolute; /* La imagen será posicionada de manera absoluta */
+  z-index: 0; /* Menor que el contenido */
+  top: 470px;
+  max-height: 1030px;
+}
+
+.box-team {
+  background: #fdfffc;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-team {
+  height: 70px;
+}
+
+.content-left {
+  position: relative;
+  color: #ffffff;
+  margin-top: 130px;
+  padding: 30px 0 20px 40px;
+  background: rgba(139, 154, 173, 0.6);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.content-right {
+  position: relative;
+  color: #ffffff;
+  padding: 30px 0 20px 40px;
+  background: rgba(139, 154, 173, 0.6);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.logo-team {
+  display: flex;
+  width: 95%;
+  gap: 30px;
+}
+
+.logo-teamR {
+  display: flex;
+  width: 95%;
+  gap: 30px;
+  justify-content: end;
+}
+
+.content-info {
+  display: flex;
+}
+
+.left-content {
+  padding: 20px 0 0 20px;
+  width: 50%;
+}
+
+.left-contentR {
+  padding: 20px 0 0 20px;
+  width: 60%;
+}
+
+.left-content > img {
+  width: 450px;
+  box-shadow: -4px 4px 4px #000000;
+}
+
+.left-contentR > img {
+  width: 450px;
+  box-shadow: -4px 4px 4px #000000;
+}
+
+.rigth-content {
+  padding: 20px 20px 0 0;
+}
+
+.rigth-contentR {
+  padding: 20px 20px 0 0;
+}
+
+.galery {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.galery > img {
+  width: 130px;
+  box-shadow: 0 4px 4px #ffc011;
+}
+
+.galery > img:hover {
+  transform: scale(1.8);
+  transition: 0.5s;
+}
+
+app-footer {
+  margin-top: 10px;
+  position: relative;
+}
