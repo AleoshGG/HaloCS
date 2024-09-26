@@ -1,0 +1,258 @@
+.img-background {
+  position: relative;
+}
+
+.img-b {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative; /* La imagen será posicionada de manera absoluta */
+  top: 0px;
+  box-shadow: 4px 4px 4px #ffc011;
+}
+
+.nv {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+app-navar {
+  position: relative;
+  z-index: 2;
+}
+
+.img-bc {
+  width: 100%;
+  display: block;
+  position: absolute; /* La imagen será posicionada de manera absoluta */
+  z-index: 0; /* Menor que el contenido */
+  top: 820px;
+  max-height: 1030px;
+}
+
+.after-play {
+  position: relative;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  padding: 40px 0 0 0;
+}
+
+.aP-left {
+  width: 50%;
+}
+
+.aP-teams-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.aP-team-left {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 120px;
+}
+
+.aP-team-medium {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+
+.box-team {
+  background: #fdfffc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+}
+
+.box-team > img {
+  height: 100px;
+}
+
+.title-aP {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.title-aP > img {
+  width: 50px;
+}
+
+.aP-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aP-btn-medium {
+  padding-top: 20px;
+}
+
+.ap-btn-bottom {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-msg {
+  color: #ffffff;
+  background: rgba(139, 154, 173, 0.6);
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.content-msg > img {
+  height: 60px;
+}
+
+.content-btn-link {
+  border: 0.9px #fdfffc solid;
+  padding: 3px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.btn-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-btn1 {
+  height: 40px;
+}
+
+.img-btn {
+  height: 25px;
+}
+
+button {
+  border: none;
+}
+
+.btn-link:hover {
+  transition: 0.5s;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.before-play {
+  position: relative;
+  color: #ffffff;
+  margin-top: 50px;
+  padding: 30px 0 50px 40px;
+  background: rgba(139, 154, 173, 0.6);
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.bP-left {
+  width: 50%;
+}
+
+.bP-left > iframe {
+  margin-top: -40px;
+}
+
+.bP-rigth {
+  width: 50%;
+  display: flex;
+  margin-top: 9%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bP-R-top {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.bP-team-medium {
+  width: 20%;
+}
+
+.bP-team-medium > h1 {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.bP-team-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bP-R-botton {
+  padding-top: 4%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50%;
+  padding-left: 25%;
+}
+
+.btn-bP {
+  padding: 10px 15px;
+  border-radius: 1px;
+}
+
+.btn-bP:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+app-footer {
+  margin-top: 10px;
+  position: relative;
+}
